@@ -96,9 +96,9 @@ const NavBar = () => {
             </div>
             <div className="hidden md:flex space-x-4">
                 <div></div>
-                <div><img src={Profile}
-                        alt="nopic"
-                        className='w-6'/></div>
+                <div ><Link to="/login">
+        <img src={Profile} alt="nopic" className='w-6' />
+      </Link></div>
                 <div><img src={Search}
                         alt="nopic"
                         className='w-6'/></div>

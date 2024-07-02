@@ -1,6 +1,5 @@
 import {useState} from 'react';
 import watch4 from '../../images/watch4.jpg'
-import Footer from '../footer/Footer'
 import { Link } from 'react-router-dom';
 
 function ProductView() {
@@ -21,8 +20,6 @@ function ProductView() {
     };
 
     return (
-        <div className="max-h-screen mt-10">
-
             <>
                 <h1 className="text-4xl md:text-4xl text-black font-serif mb-14">PRODUCT DETAILS</h1>
                 <div className="flex flex-col lg:flex-row items-center">
@@ -81,9 +78,6 @@ function ProductView() {
                     </div>
                 </div>
             </>
-            <Footer/>
-
-        </div>
     );
 }
 

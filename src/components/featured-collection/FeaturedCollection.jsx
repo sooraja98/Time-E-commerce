@@ -40,12 +40,11 @@ const responsive = {
 const FeaturedCollection = () => {
   return (
     <>
-      <div className=''>
-        <h1 className='md:text-4xl text-xl md:text-start font-most-purchace pt-4 md:ml-4 '>FEATURED COLLECTION</h1>
-        <div className="hidden md:block border-t-4 border-black w-2/5 my-4 ml-4 "></div>
-        <div className="flex justify-center ">
-          <div className="md:hidden border-t-4 border-black w-2/4 my-4 "></div>
-        </div>
+      <div className='text-center'>
+        <h1 className='md:text-4xl text-xl font-most-purchace pt-4'>MOST PURCHASED ITEMS</h1>
+        <div className="border-t-4 border-black w-1/5 mx-auto my-4"></div>
+      </div>
+      <div>
       </div>
       <div>
         {/* Carousel component for displaying featured items */}
@@ -56,7 +55,7 @@ const FeaturedCollection = () => {
           autoPlaySpeed={3000}
           centerMode={false}
           containerClass="my-carousel"
-          const dotListClass = "my-carousel-dots" // This line seems to be incomplete
+          const dotListClass="my-carousel-dots" // This line seems to be incomplete
           draggable
           focusOnSelect={true}
           infinite
